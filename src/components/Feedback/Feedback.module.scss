@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    border-radius: 2px;
+    font-weight: bold;
+    border: none;
+    padding: 5px 25px;
+    background-color: bisque;
+    margin-right: 20px;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.10);
+        border: 1px solid black;
+    }
+
+
+}
